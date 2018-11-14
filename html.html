@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RelaxJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section>
+    <h1>Master Guitar with Challenges</h1>
+    <p>Enter (or create) guitar lick challenges!</p>
+
+    <button >Join up now</button>
+
+    <img src="https://ubisafe.org/images/guitar-svg-1.png" alt="" class="guitar rellax" data-rellax-speed="5">
+
+    <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/JrbItQz/crowd-of-people-raising-hands-up-at-rock-concert_vh_kazkwl__F0000.png" alt="" class="crowd rellax" data-rellax-speed="-2" data-rellax-percentage="-.3">
+
+    <img src="https://c1.staticflickr.com/6/5079/5868969673_71dc31c82e_b.jpg" alt="" class="crowdBg rellax" data-rellax-speed="2" data-rellax-percentage="0.9">
+</section>
+
+<section>
+    <h2 data-scroll>Shred your silly face off</h2>
+    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda blanditiis dignissimos ex fugit impedit in ipsam natus reiciendis suscipit, vel!</p>
+</section>
+
+<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<script src="node_modules/rellax/rellax.min.js"></script>
+
+<script>
+    var rellax = new Rellax('.rellax');
+    ScrollOut({
+        threshold:.6
+    })
+</script>
+</body>
+</html>
